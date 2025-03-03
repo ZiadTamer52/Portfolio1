@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Portfolio</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Ziad Tamer</span></h1>
+        <h2>Cyber Security & Web Developer</h2>
+        <p>I create tools and websites that are functional and aid in growth.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-shape"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="img/ziad.jpg" alt="Profile Photo">
+          <div class="about-shape"></div>
+        </div>
+        <div class="about-text">
+          <h3>Who am I?</h3>
+          <p>I'm a Computer Science student at AOU University with a passion for cybersecurity and web development. Dedicated to mastering the foundations of technology, I aim to bridge technology and communication..</p>
+          <p>With 2+ years of experience in Cybersecurity field, I've worked on various projects ranging from small tools to complex funcitional tools.</p>
+          <p>When I'm not coding, you can find me exploring new hiking trails, reading books, or I participate in some training.</p>
+          <div class="about-details">
+            <div class="detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Cairo, Egypt</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-envelope"></i>
+              <span>zyadaynshtain@gmail.com</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-phone"></i>
+              <span>(123) 456-7890</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/ZiadTamer52" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ziad-einstein-5b8242311/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/tamer_ziad91213" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="app">Cyber tools</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <img src="img/por.png" alt="Portfolio-website">
+          </div>
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A fully responsive Portfolio platform with a Blog , Resume, and content platforms.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/ZiadTamer52/Portfolio" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="https://ziadtamer52.github.io/Portfolio/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <img src="img/azkar.jpg" alt="Azkar Website">
+          </div>
+          <div class="project-content">
+            <h3>Azkar Website</h3>
+            <p>About
+                This is a simple web application that displays Azkar (morning and evening and sleeping) with the option to mark each one as "read" by clicking a button. This app is designed using HTML, CSS, and JavaScript.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/ZiadTamer52/Azkar" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="https://ziadtamer52.github.io/Azkar/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app">
+          <div class="project-img">
+            <img src="img/screenscreen.jpg" alt="Keylogger Tool">
+          </div>
+          <div class="project-content">
+            <h3>Keylogger Tool</h3>
+            <p>About
+                > Advanced Keylogger for Ethical Research & Security Testing – Captures keystrokes, takes automatic screenshots, and encrypts logs. Designed for ethical hacking, cybersecurity research, and parental monitoring. ⚠ For legal & educational use only.</p>
+            <div class="project-tags">
+              <span>Python</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/ZiadTamer52/Keylogger" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="https://github.com/ZiadTamer52/Keylogger/releases/tag/v1.0" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-content">
+        <div class="skills-text">
+          <h3>What I'm capable of</h3>
+          <p>I specialize in building responsive, user-friendly websites and applications and writing scripts , develop tools. My expertise includes:</p>
+          <ul class="skills-list">
+            <li><i class="fas fa-check-circle"></i> Creating responsive layouts that work on all devices</li>
+            <li><i class="fas fa-check-circle"></i> Developing interactive user interfaces with JavaScript</li>
+            <li><i class="fas fa-check-circle"></i> Implementing accessibility best practices</li>
+            <li><i class="fas fa-check-circle"></i> Writing scripts that automaties some work</li>
+          </ul>
+        </div>
+        <div class="skills-bars">
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>HTML</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>CSS</span>
+              <span>70%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>50%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Python</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Golang</span>
+              <span>50%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Bash</span>
+              <span>65%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out to me for any questions or opportunities. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Cairo, Egypt</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>zyadaynshtain@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>(123) 456-7890</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/ZiadTamer52" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ziad-einstein-5b8242311/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/tamer_ziad91213" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" class="social-link"><i class="fab fa-dribbble"></i></a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Ziad Tamer</h3>
+          <p>Cyber Security & Web Developer</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-nav">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Connect With Me</h4>
+            <div class="social-links">
+              <a href="https://github.com/ZiadTamer52" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/ziad-einstein-5b8242311/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="https://x.com/tamer_ziad91213" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ziad Tamer. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
