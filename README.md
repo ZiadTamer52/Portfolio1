@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website! This is a showcase of my work, skills, and projects. You can explore my projects, learn more about me, and get in touch.
 
-🔗 **Live Demo:** [https://ziadtamer52.github.io/Portfolio1/](https://ziadtamer52.github.io/Portfolio1/)
+🔗 **Live Demo:** [https://ziadtamer52.github.io/Portfolio1/](https://ziad-sable.vercel.app/)
 
 ---
 
@@ -28,7 +28,7 @@ Welcome to my portfolio website! This is a showcase of my work, skills, and proj
 
 Here are some of the projects featured in my portfolio:
 
-1. **[Azkar](https://ziadtamer52.github.io/Azkar/)** – A website for daily supplications.
+1. **[Azkar](https://azkar-self.vercel.app/)** – A website for daily supplications.
 2. **[Keylogger](https://github.com/ZiadTamer52/Keylogger)** – A Keylogger tool for security.
 3. **More cybersecurity tools coming soon...**
 
@@ -36,7 +36,7 @@ Here are some of the projects featured in my portfolio:
 
 ## 🖥️ How to Use
 
-1. Visit the live demo: [Portfolio](https://ziadtamer52.github.io/Portfolio1/).
+1. Visit the live demo: [Portfolio](https://ziad-sable.vercel.app//).
 2. Navigate through the sections to explore my work and learn more about me.
 3. Use the contact form or links to get in touch.
 
